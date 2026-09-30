@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ระบบเช็คอินงานบ้าน</title>
+  <meta name="theme-color" content="#2f7d3c">
+  <!--
+    หน้าครอบแอป (วางบน GitHub Pages ได้ฟรี)
+    - ฝังเว็บแอป Apps Script ไว้เต็มหน้าจอ → Google ไม่แสดงแถบ "This application was created by a Google Apps Script user"
+    - allow="geolocation" ให้สิทธิ์ตำแหน่งกับแอปที่ฝัง (Google Sites ไม่ให้สิทธิ์นี้ จึงเช็คอินไม่ได้)
+    - ไฟล์นี้มีแค่ลิงก์ของแอป ไม่มีข้อมูลอื่น
+  -->
+  <style>
+    html, body { margin: 0; height: 100%; background: #f2f4f7; }
+    iframe { position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <!-- แก้บรรทัดนี้บรรทัดเดียว: ใส่ลิงก์ Web App ที่ลงท้ายด้วย /exec แทน URL_ของ_WEB_APP -->
+  <iframe src="URL_ของ_WEB_APP" allow="geolocation" title="ระบบเช็คอินงานบ้าน"></iframe>
+</body>
+</html>
